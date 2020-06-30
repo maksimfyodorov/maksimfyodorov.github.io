@@ -1,0 +1,43 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+} 
+
+.img {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 10px;
+}
+
+.box {
+    margin-top: 20px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+}
+
+p{
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+}
+
+a {
+    color: #eb5238;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+
+
