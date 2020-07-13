@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,7 +8,7 @@
 
     <title>Document</title>
 </head>
-<body>
+<body> -->
     <!-- <img class="img" src="me1.jpg" alt="Фото">
     <div class="box"> 
         <p>Hi there!</p>
@@ -23,33 +23,280 @@
         </ul>
         <p>Also you can visit my <a href="https://github.com/MaksimFyodorov" target="blanc">GitHub account</a></p>
     </div> -->
+     
+		
+<!-- </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172010001-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-172010001-1');
+    </script>
+
+
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    
+    <!--  Инструкция для IE  -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!--  Отображать страницу в масштабе 100%  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Нормализация стилей -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+    
+    <!--  Подключение веб-шрифтов  -->
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Lobster&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6b9a07950d.js" crossorigin="anonymous"></script>
+
+
+    <!-- AOS. 1) Подключение CSS стилей -->
+    <link href="./libs/aos/aos.css" rel="stylesheet">
+
+    <!-- VK API -->
+    <script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
+
+    <!-- jQuery Modal CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+    <!-- Собственные стили -->
+    <link rel="stylesheet" href="css/main.css">
+
+
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon/favicon-16x16.png">
+    
+</head>
+<body>
+<!-- ...................................... 
+
+HEADER
+
+...................................... -->
+<div class="header"> 
+    <div class="header__title" data-aos="zoom-in">Максим Федоров</div>
+    <div class="header__slogan" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="400">
+        Верстка сайтов на HTML и CSS<br> HTML5 CSS3 JS jQuery
+    </div>
+
+    <!-- <div data-aos="fade-up" data-aos-easing="ease" data-aos-delay="600">
+        <a href="#login-form" rel="modal:open" class="button open-modal" >Перезвоните мне</a>
+    </div> -->
+    
+    <!-- <div id="login-form" class="modal">  -->
         <!-- Форма обратной связи -->
-	<form action="php/mail.php" class="contact_form" method="POST">
+        <!-- <form action="php/callback.php" class="contact_form contact_form__modal" method="POST"> -->
+    
+            <!-- Hidden Required Fields -->
+            <!-- <input type="hidden" name="project_name" value="Сайт Портфолио">
+            <input type="hidden" name="admin_email" value="mvf1986@ya.ru, redrosehip@ya.ru">
+            <input type="hidden" name="email_from" value="info@f0453987.xsph.ru">
+            <input type="hidden" name="form_subject" value="Обратный звонок с сайта">
+            END Hidden Required Fields -->
+    
+            <!-- <h2>Заполните заявку</h2>
+            <div class="subtitle">и мы свяжемся с вами</div> -->
+    
+            <!-- <label for="f_name">Ваше имя:</label>
+            <input type="text" id="f_name" name="Имя" placeholder="">
+    
+            <label for="f_phone">Ваш телефон:</label>
+            <input type="text" id="f_phone" name="phone" placeholder="">
+    
+    
+            <input type="submit" value="Отправить заявку">
+    
+        </form>
+    </div> -->
 
-		<!-- Hidden Required Fields -->
-		<input type="hidden" name="project_name" value="Сайт Портфолио">
-		<input type="hidden" name="admin_email" value="mvf1986@ya.ru">
-		<input type="hidden" name="email_from" value="info@maksimfyodorov.github.io">
-        <input type="hidden" name="form_subject" value="Сообщение с сайта">
-		<!-- END Hidden Required Fields -->
-		
-		<h2>Заполните заявку</h2>
-		<div class="subtitle">и мы свяжемся с вами</div>
-		
-		<label for="f_name">Ваше имя:</label>
-		<input type="text" id="f_name" name="Имя" placeholder="">
+   
+    
 
-		<label for="f_email">Ваш email:</label>
-		<input type="text" id="f_email" name="E-mail" placeholder="">
+    <div class="header__arrow" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="800" data-aos-offset="0">
+        <i class="fa fa-chevron-down" aria-hidden="true"></i>
+    </div>
+</div>   
+<!-- ...................................... 
 
-		<label for="f_email">Ваш адрес:</label>
-		<input type="text" id="f_email" name="address" placeholder="">
+PORTFOLIO
 
-		<label for="f_name">Сообщение:</label>
-		<textarea name="message" id="" cols="30" rows="10"></textarea>
+...................................... -->
+<div class="portfolio">
+    <div class="container">
+    
+    <div class="title" data-aos="fade-up">
+        Портфолио
+    </div>
+        
+    <div class="row">
+        
+        <!-- Работа в портфолио -->
+        <div class="col-4" data-aos="fade-up" data-aos-duration="500" data-aos-anchor-placement="bottom-bottom">
+            <div class="portfolio-item">
+                <div class="portfolio-item__img">
+                    <img src="img/portfolio/project_organica.jpg" alt="Макет Органика">
+                </div>
+                <div class="portfolio-item__title">
+                    <a href="work-organica.html">Макет Органика</a>
+                </div>
+                <div class="portfolio-item__text">
+                    <p>Верстка одностраничного сайта по PSD макету.</p>
+                </div>
+            </div>
+        </div>
+        <!-- // Работа в портфолио -->
+        
+        <!-- Работа в портфолио -->
+        <div class="col-4" data-aos="fade-up" data-aos-duration="500" data-aos-anchor-placement="bottom-bottom" data-aos-delay="300">
+            <div class="portfolio-item">
+                <div class="portfolio-item__img">
+                    <img src="img/portfolio/project_apollo.jpg" alt="Учебный макет Аполло">
+                </div>
+                <div class="portfolio-item__title">
+                    <a href="work-apollo.html">Учебный макет Аполло</a>
+                </div>
+                <div class="portfolio-item__text">
+                    <p>Верстка лендинга хостинг компании. Мобильная адаптивность.</p>
+                </div>
+            </div>
+        </div>
+        <!-- // Работа в портфолио -->
+        
+        <!-- Работа в портфолио -->
+        <div class="col-4" data-aos="fade-up" data-aos-duration="500" data-aos-anchor-placement="bottom-bottom" data-aos-delay="600">
+            <div class="portfolio-item">
+                <div class="portfolio-item__img">
+                    <img src="img/portfolio/project_portfolio.jpg" alt="Личный сайт портфолио">
+                </div>
+                <div class="portfolio-item__title">
+                    <a href="work-portfolio.html">Личный сайт портфолио</a>
+                </div>
+                <div class="portfolio-item__text">
+                    <p>Верстка личного сайта портфолио на котором вы сейчас находитесь.</p>
+                </div>
+            </div>
+        </div>
+        <!-- // Работа в портфолио -->
+    </div>
+    
+    </div>
+</div>
+<!-- ...................................... 
 
-		<input type="submit" value="Отправить заявку">
+FOOTER
 
-	</form>
+...................................... -->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-4" data-aos="flip-up" data-aos-delay="100" data-aos-duration="700" data-aos-anchor-placement="bottom-bottom">
+                <p class="footer__name">Максим Федоров</p>
+                <p class="footer__name-info">HTML верстка и разработка сайтов</p>
+            </div>
+            <div class="col-4" data-aos="flip-up" data-aos-delay="100" data-aos-duration="700" data-aos-anchor-placement="bottom-bottom">
+                <p class="footer__social">Давайте знакомиться:</p>
+                <p class="footer__social-icons">
+                   
+                    <a href="#form" target="_blank" class="open-modal">
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                    </a>
+                    
+                    <a href="whatsapp://send?phone=+79106044182" target="_blank">
+                    <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                    </a>
+                    
+                    <a href="#" target="_blank">
+                    <i class="fab fa-viber" aria-hidden="true"></i>
+                    </a>
+                    
+                    <a href="#" target="_blank">
+                        <i class="fab fa-telegram-plane"></i>
+                    </a>
+                    
+                    <a href="#" target="_blank">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                    
+                </p>
+                <div id="form" class="modal">  
+                    <form class="contact_form contact_form__modal" >
+                        <h2 class="email-title">Мой адрес электронной почты:</h2>
+                        <h2 class="email">m.v.fyodoroff@gmail.com</h2>
+                    </form>
+                </div>
+            </div>
+
+            <div class="col-4" data-aos="flip-up" data-aos-delay="100" data-aos-duration="700" data-aos-anchor-placement="bottom-bottom">
+                <div><a href="#" class="button" target="_blank">связаться Вконтакте</a></div>
+                <p>Напишите мне, чтобы заказать или узнать стоимость верстки вашего проекта</p> 
+                <!-- <p><a href="contact-form.html">Отправить сообщение</a></p> -->
+            </div>
+        </div>
+    </div>
+</div>
+    
+<!-- AOS. 2) Подключение JS библиотеки -->
+<script src="./libs/aos/aos.js"></script>
+
+<!-- AOS. 3) Вызов JS библиотеки -->
+<script>
+    AOS.init();
+</script>
+
+<!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+<!-- jQuery Modal -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+ 
+    ym(65457031, "init", {
+         clickmap:true,
+         trackLinks:true,
+         accurateTrackBounce:true,
+         webvisor:true
+    });
+ </script>
+ <noscript><div><img src="https://mc.yandex.ru/watch/65457031" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+ <!-- /Yandex.Metrika counter -->
+
+ <!-- VK Widget -->
+<div id="vk_community_messages"></div>
+<script type="text/javascript">
+    VK.Widgets.CommunityMessages("vk_community_messages", 196981782, {expanded: "", disableButtonTooltip: "1", widgetPosition: "left"});
+</script>
+
+<!-- Chatra {literal} -->
+<script>
+    (function(d, w, c) {
+        w.ChatraID = '6DjH2whRWhRpANLfb';
+        var s = d.createElement('script');
+        w[c] = w[c] || function() {
+            (w[c].q = w[c].q || []).push(arguments);
+        };
+        s.async = true;
+        s.src = 'https://call.chatra.io/chatra.js';
+        if (d.head) d.head.appendChild(s);
+    })(document, window, 'Chatra');
+</script>
+<!-- /Chatra {/literal} -->
+
+<script src="js/main.js"></script>
+    
 </body>
 </html>
