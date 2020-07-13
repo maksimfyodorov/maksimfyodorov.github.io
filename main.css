@@ -155,6 +155,7 @@ a {
 .portfolio {
     padding-top: 70px;
     padding-bottom: 100px;
+    background-color: #d0d8e7;
 }
 
 .portfolio-item {
@@ -175,18 +176,22 @@ a {
 .portfolio-item__img img {
     max-width: 100%;
     height: auto;
+    border-radius: 20px;
+
 }
 
 .portfolio-item__title {
     font-size: 24px;
     line-height: normal;
     margin-bottom: 5px;
+    text-align: center;
+
 }
 
 .portfolio-item__title a {
     text-decoration: none;
     color: #000;
-    border-bottom: 1px solid #FFF;
+    border-bottom: 1px solid #d0d8e7;
 }
 
 .portfolio-item__title a:hover {
@@ -197,6 +202,8 @@ a {
 .portfolio-item__text p {
     margin-top: 0px;
     margin-bottom: 15px;
+    text-align: center;
+
 }
 
 
@@ -209,12 +216,15 @@ a {
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
+    background-color: #d0d8e7;
+
 }
 
 .portfolio-sigle-page img {
     margin-bottom: 50px;
     max-width: 100%;
     height: auto;
+    border-radius: 20px;
 }
 
 .button-back {
@@ -269,6 +279,20 @@ a {
 .footer p {
     margin-top: 0px;
     margin-bottom: 15px;
+}
+
+.footer__phone {
+    text-align: center;
+}
+
+.footer__phone a {
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+}
+
+.footer__phone a:hover {
+    color: #FFE400;
 }
 
 .footer a {
@@ -326,8 +350,6 @@ p.footer__social-icons a:hover {
     word-wrap: break-word;
 }
 
-
-
 .button {
     font-weight: 700;
     text-decoration: none;
@@ -359,94 +381,6 @@ p.footer__social-icons a:hover {
     background-color: #fff;
     
 }
-
-/* ........................................
-
-	FORM
-
-........................................ */
-.contact_form {
-	max-width: 600px;
-	height: auto;
-	margin: 50px auto 50px;
-}
-
-.contact_form__modal {
-    margin: 0px auto 0px;
-}
-
-.contact_form h2 {
-	font-size: 28px;
-	margin: 0 0 0px;
-}
-
-.contact_form .subtitle {
-	font-size: 18px;
-	margin-bottom: 15px;
-}
-
-.contact_form label {
-	width: 100%;
-	margin-bottom: 10px;
-	font-weight: bold;
-	font-size: 18px;
-	display: inline-block;
-}
-
-.contact_form input[type="text"] {
-	width: 100%;
-	margin-bottom: 25px;
-	padding: 4px;
-	font-size: 18px;
-}
-
-.contact_form textarea {
-	width: 100%;
-	height: 120px;
-	margin-bottom: 25px;
-	padding: 4px;
-	font-size: 18px;
-}
-
-.contact_form input[type="submit"] {
-	width: 100%;
-	text-align: center;
-	padding: 10px;
-	font-size: 18px;
-	font-weight: bold;
-}
-
-.contact_form textarea {
-    width: 100%;
-    height: 150px;  
-	padding: 10px;
-	font-size: 18px;
-	font-weight: bold;
-}
-
-/* ........................................
-
-	THANKYOU PAGE
-
-........................................ */
-.thankyou {
-	text-align: center;
-	font-size: 18px;
-}
-
-.thankyou h1 {
-	color: green;
-	font-size: 28px;
-}
-
-.thankyou p {
-	font-size: 18px;
-}
-
-
-
-
-
 /* ........................................
 
 	MEDIA
